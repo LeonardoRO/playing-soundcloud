@@ -1,0 +1,4 @@
+
+browser: <% "#{ENV['BROWSER']}" %>
+switches:  "%w[--ignore-certificate-errors]"
+driver: watir_webdriver
